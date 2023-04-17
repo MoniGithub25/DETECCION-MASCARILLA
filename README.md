@@ -1,5 +1,5 @@
 # DETECCION-MASCARILLA
-Programa de deteccion de mascarilla complimentado con Arduiono. Este programa se encarga de detectar si tu rostro lleva mascarilla o no (con OpenCv yMediapipe).
+Programa de deteccion de mascarilla complimentado con Arduino. Este programa se encarga de detectar si tu rostro lleva mascarilla o no (con OpenCv yMediapipe).
 Para ello primero hay que entrenarlo y para ello hay que tener una carpeta con varias caras de personas random con mascarilla por un lado y por otro lado sin mascarilla.
 El entrenamiento de imagenes (train.py) genera un archivo .xtml
 Una vez hecho esto se empieza con la deteccion de la cara mediante la videocamara (Mediapipe) y se indica si lleva mascariila o no (CV2)
